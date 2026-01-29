@@ -1,0 +1,1 @@
+name: CIon: push: branches: [main] pull_request: branches: [main]jobs: build: runs-on: ubuntu-latest steps: - uses: actions/checkout@v4 - name: Run a test script run: | echo "Hello from GitHub Actions!" ls -la
