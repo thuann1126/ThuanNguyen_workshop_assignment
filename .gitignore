@@ -1,0 +1,38 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Node / dependency folders (if you ever use Node.js)
+node_modules/
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
+# Log files
+*.log
+
+# Environment / config files with sensitive data
+.env
+.env.local
+.env.*.local
+
+# Build / distribution folders
+dist/
+build/
+
+# Ignore any compiled files
+*.class
+*.exe
+*.dll
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore secret or sensitive local files
+Secret-recipe.txt
